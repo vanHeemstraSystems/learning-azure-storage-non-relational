@@ -19,7 +19,9 @@ website:
         - text: "---"
         - topics.qmd        
         - text: "---"
-        - topics/designing-for-data-storage-solution.qmd       
+        - topics/designing-for-data-storage-solution.qmd
+        - text: "---"
+        - topics/determine-the-best-storage-account-type.qmd
 format:
   html:
     theme: cosmo
