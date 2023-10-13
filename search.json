@@ -7,6 +7,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "topics/designing-for-data-storage-solution.html",
+    "href": "topics/designing-for-data-storage-solution.html",
+    "title": "Designing for Data Storage Solution",
+    "section": "",
+    "text": "Source: Non-relational Storage\n\nClarify your data storage\n\n\n\nData Storage\n\n\nTo design Azure storage, you first must determine what type of data you have:\n\nStructured data includes relational data and has a shared schema.\nSemi-structured is less organized than structured data and isn’t stored in a relational format.\nUnstructured data is the least organized type of data."
+  },
+  {
     "objectID": "SUMMARY.html",
     "href": "SUMMARY.html",
     "title": "Table of contents",
