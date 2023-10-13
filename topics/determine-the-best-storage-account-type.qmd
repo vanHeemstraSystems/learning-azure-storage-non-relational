@@ -14,3 +14,13 @@ Select an account type based on supported services, usage cases, and SLA.
 |Premium block blobs|Blob storage, Data Lake|High transactions rates, single digit storage latency, or large numbers of small transactions|
 |Premium file shares|Azure Files|Enterprise or high-performance scale applications - supports both SMBand NFS file shares|
 |Premium page blobs|Page blobs only|High performance and low latency storage scenarios|
+
+# Considerations for storage accounts
+It is important to plan your storage accounts.
+
+- **Location**: For performance reasons locate the data close to users. One storage account for each location.
+- **Compliance**: Regulatory guidelines for keeping data in a specific location. / Internal requirements for auditing or storing data.
+- **Cost**: The settings for the account do influence the cost of services in the account.
+- **Replication**: Data storage could have different replication strategies.
+- **Administrative overhead**: Each storage account requires some time and attention from an administrator to create and maintain.
+- **Security - Data sensitivity**: Data plane security and data storage security.
