@@ -6,7 +6,7 @@ css: ../styles.css
 Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html)
 
 # Determine the best storage account type
-Selet an account type based on supported services, usage cases, and SLA.
+Select an account type based on supported services, usage cases, and SLA.
 
 |Account Type|Supported Services|Usage|
 |--|--|--|
