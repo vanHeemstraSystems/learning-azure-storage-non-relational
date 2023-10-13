@@ -19,11 +19,7 @@ website:
         - text: "---"
         - topics.qmd        
         - text: "---"
-        - topics/hybrid-identity.qmd
-        - text: "---"       
-        - topics/identity-protection.qmd
-        - text: "---"
-        - topics/privileged-identity-management.qmd        
+        - topics/designing-for-data-storage-solution.qmd       
 format:
   html:
     theme: cosmo
