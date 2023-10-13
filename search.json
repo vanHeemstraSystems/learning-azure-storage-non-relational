@@ -7,6 +7,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "topics/determine-the-best-storage-account-type.html",
+    "href": "topics/determine-the-best-storage-account-type.html",
+    "title": "Determine the best storage account type",
+    "section": "",
+    "text": "Source: Non-relational Storage\n\nDetermine the best storage account type\nSelet an account type based on supported services, usage cases, and SLA.\n\n\n\n\n\n\n\n\nAccount Type\nSupported Services\nUsage\n\n\n\n\nStandard general-purpose v2 (default)\nBlobs / Data Lake, Queues, Tables, Azure Files\nRecommended for most scenarios.\n\n\nPremium block blobs\nBlob storage, Data Lake\nHigh transactions rates, single digit storage latency, or large numbers of small transactions\n\n\nPremium file shares\nAzure Files\nEnterprise or high-performance scale applications - supports both SMBand NFS file shares\n\n\nPremium page blobs\nPage blobs only\nHigh performance and low latency storage scenarios"
+  },
+  {
     "objectID": "topics/designing-for-data-storage-solution.html",
     "href": "topics/designing-for-data-storage-solution.html",
     "title": "Designing for Data Storage Solution",
