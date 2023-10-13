@@ -1,0 +1,16 @@
+---
+title: "Determine the best storage account type"
+css: ../styles.css
+---
+
+Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html)
+
+# Determine the best storage account type
+Selet an account type based on supported services, usage cases, and SLA.
+
+|Account Type|Supported Services|Usage|
+|--|--|--|
+|Standard general-purpose v2 (default)|Blobs / Data Lake, Queues, Tables, Azure Files|Recommended for most scenarios.|
+|Premium block blobs|Blob storage, Data Lake|High transactions rates, single digit storage latency, or large numbers of small transactions|
+|Premium file shares|Azure Files|Enterprise or high-performance scale applications - supports both SMBand NFS file shares|
+|Premium page blobs|Page blobs only|High performance and low latency storage scenarios|
