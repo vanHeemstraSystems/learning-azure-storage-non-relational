@@ -1,0 +1,11 @@
+---
+title: "Designing for NetApp Files"
+css: ../styles.css
+---
+
+Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html)
+
+# Designing for NetApp Files
+The Azure NetApp Files service is enterprise-class, high-performance, metered file storage.
+
+![Storage Replication Strategy](../images/netapp-files.png)
