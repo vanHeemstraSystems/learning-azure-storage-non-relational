@@ -35,7 +35,10 @@ website:
         - text: "---"
         - topics/designing-for-netapp-files.qmd
         - text: "---"
-        - topics/select-an-azure-disk-solution.qmd        
+        - topics/select-an-azure-disk-solution.qmd
+        - text: "---"
+        - topics/considerations-for-storage-security.qmd
+
 format:
   html:
     theme: cosmo
