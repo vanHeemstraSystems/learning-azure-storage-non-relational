@@ -1,1 +1,15 @@
+---
+title: "Select a storage replication strategy"
+css: ../styles.css
+---
 
+Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html)
+
+# Select a storage replication strategy
+What level of redundancy do you need?
+
+![Storage Replication Strategy](../images/storage-replication-strategy.png)
+
+- A node within a data center becomes unavailable.
+- An entire data center (zonal or non-zonal) becomes available.
+- A region-wide outage occurs in the primary region.
