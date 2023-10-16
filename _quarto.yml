@@ -22,6 +22,8 @@ website:
         - topics/designing-for-data-storage-solution.qmd
         - text: "---"
         - topics/determine-the-best-storage-account-type.qmd
+        - text: "---"
+        - topics/select-a-storage-replication-strategy.qmd
 format:
   html:
     theme: cosmo
