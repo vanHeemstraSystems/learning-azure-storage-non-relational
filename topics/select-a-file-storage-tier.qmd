@@ -1,5 +1,5 @@
 ---
-title: "Select a storage replication strategy"
+title: "Select a file storage tier"
 css: ../styles.css
 ---
 
