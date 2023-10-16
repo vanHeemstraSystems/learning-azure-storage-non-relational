@@ -28,11 +28,11 @@
     "text": "Source: Non-relational Storage\n\nDetermine the storage tier\nBlob storage is an object store used for storing vast amounts of unstructured data.\n\n\n\n\n\n\n\n\n\n\nTier\nStorage Costs\nRetrieval Costs\nStorage Duration\nUsage Cases\n\n\n\n\nPremium\nHigh\nLowest\nN/A\n- High throughput and large numbers of I/O operations per second.\n\n\nHot\nMedium\nLow\nN/A\n- Active and frequent use.- Data staged for processing.\n\n\nCool\nLow\nMedium\n&gt; 30 days\n- Short-term backup.- Older media infrequently viewed.- Large data sets.\n\n\nArchive\nLowest\nHigh\n&gt; 180 days\n- Long-term backup.- Original (raw) data.- Compliance or archival data.\n\n\n\n\nUse lifecycle rules to transition blob data to the appropriate access tiers.\nConsider a data lifecycle rule to expire or delete data."
   },
   {
-    "objectID": "topics/select-a-storage-replication-strategy.html",
-    "href": "topics/select-a-storage-replication-strategy.html",
-    "title": "Select a storage replication strategy",
+    "objectID": "topics/designing-for-data-storage-solution.html",
+    "href": "topics/designing-for-data-storage-solution.html",
+    "title": "Designing for Data Storage Solution",
     "section": "",
-    "text": "Source: Non-relational Storage\n\nSelect a storage replication strategy\nWhat level of redundancy do you need?\n\n\n\nStorage Replication Strategy\n\n\n\nA node within a data center becomes unavailable.\nAn entire data center (zonal or non-zonal) becomes available.\nA region-wide outage occurs in the primary region."
+    "text": "Source: Non-relational Storage\n\nClarify your data storage\n\n\n\nData Storage\n\n\nTo design Azure storage, you first must determine what type of data you have:\n\nStructured data includes relational data and has a shared schema.\nSemi-structured is less organized than structured data and isn’t stored in a relational format.\nUnstructured data is the least organized type of data."
   },
   {
     "objectID": "topics/compare-azure-files-to-azure-blobs.html",
@@ -42,11 +42,11 @@
     "text": "Source: Non-relational Storage\n\nCompare Azure Files to Azure Blobs\nThe technology you choose depends on the use case, protocol, and performance.\n\n\n\n\n\n\n\n\nCategory\nAzure Files\nAzure Blob Storage\n\n\n\n\nUse Cases\n- Replace or supplement traditional on-premises file servers or NAS devices.- Access files shares from anywhere.- Lift and shift content to cloud.- Replicate and cache with Azure File Sync.- Share stored application settings.\n- Large scale analytical data.- Throughput sensitive high-performance computing.- Backup and archive.- Autonomous driving, media rendering, or genomic sequencing data.\n\n\nAvailable protocols.\n- SMB- NFS 4.1\n- NFS 3.0- REST- Data Lake Storage Gen2.\n\n\nPerformance (per volume).\n- Better IOPS.\n- Better Throughput."
   },
   {
-    "objectID": "topics/designing-for-data-storage-solution.html",
-    "href": "topics/designing-for-data-storage-solution.html",
-    "title": "Designing for Data Storage Solution",
+    "objectID": "topics/select-a-storage-replication-strategy.html",
+    "href": "topics/select-a-storage-replication-strategy.html",
+    "title": "Select a storage replication strategy",
     "section": "",
-    "text": "Source: Non-relational Storage\n\nClarify your data storage\n\n\n\nData Storage\n\n\nTo design Azure storage, you first must determine what type of data you have:\n\nStructured data includes relational data and has a shared schema.\nSemi-structured is less organized than structured data and isn’t stored in a relational format.\nUnstructured data is the least organized type of data."
+    "text": "Source: Non-relational Storage\n\nSelect a storage replication strategy\nWhat level of redundancy do you need?\n\n\n\nStorage Replication Strategy\n\n\n\nA node within a data center becomes unavailable.\nAn entire data center (zonal or non-zonal) becomes available.\nA region-wide outage occurs in the primary region."
   },
   {
     "objectID": "topics/select-a-file-storage-tier.html",
