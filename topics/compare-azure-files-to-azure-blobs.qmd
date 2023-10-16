@@ -1,1 +1,15 @@
+---
+title: "Compare Azure Files to Azure Blobs"
+css: ../styles.css
+---
 
+Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html)
+
+# Compoare Azure Files to Azure Blobs
+The technology you choose depends on the use case, protocol, and performance.
+
+|Category|Azure Files|Azure Blob Storage|
+|--|--|--|
+|Use Cases|- Replace or supplement traditional on-premises file servers or NAS devices.<br/>- Access files shares from anywhere.<br/>- Lift and shift content to cloud.<br/>- Replicate and cache with Azure File Sync.<br/>- Share stored application settings.|- Large scale analytical data.<br/>- Throughput sensitive high-performance computing.<br/>- Backup and archive.<br/>- Autonomous driving, media rendering, or genomic sequencing data.|
+|Available protocols.|- SMB<br/>- NFS 4.1|- NFS 3.0<br/>- REST<br/>-Data Lake Storage Gen2.|
+|Performance (per volume).|- Better IOPS.|- Better Throughput.|
