@@ -1,1 +1,11 @@
+---
+title: "Select a storage replication strategy"
+css: ../styles.css
+---
 
+Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html)
+
+# Select a file storage tier (matching)
+Tailor your file tiers to the performance and price you need.
+
+![Storage Replication Strategy](../images/file-storage-tier.png)
