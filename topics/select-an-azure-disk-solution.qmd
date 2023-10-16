@@ -1,1 +1,19 @@
+---
+title: "Select an Azure disk solution"
+css: ../styles.css
+---
 
+Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html)
+
+# Select an Azure disk solution
+Azure disks are block-level storage volumes used with Azure virtual machines.
+
+![Storage Replication Strategy](../images/azure-disk-solution.png)
+
+- Consider disk type, scenario, throughput, and IOPS.
+- Always use managed disks.
+- Optimize read and write access with disk caching.
+- Use Azure Disk Encryption.
+- Enhance performance with multiple disks.
+- Network acceleration feature.
+- Share disks across multiple VMs.
