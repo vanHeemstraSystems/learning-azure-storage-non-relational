@@ -7,6 +7,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "topics/considerations-for-storage-security.html",
+    "href": "topics/considerations-for-storage-security.html",
+    "title": "Considerations for storage security",
+    "section": "",
+    "text": "Source: Non-relational Storage\n\nConsiderations for storage security\nUse a layered security model to secure and control access.\n\n\n\nStorage Replication Strategy"
+  },
+  {
     "objectID": "topics/designing-for-netapp-files.html",
     "href": "topics/designing-for-netapp-files.html",
     "title": "Designing for NetApp Files",
