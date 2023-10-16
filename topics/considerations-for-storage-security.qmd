@@ -1,1 +1,11 @@
+---
+title: "Considerations for storage security"
+css: ../styles.css
+---
 
+Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html)
+
+# Considerations for storage security
+Use a layered security model to secure and control access.
+
+![Storage Replication Strategy](../images/storage-security.png)
