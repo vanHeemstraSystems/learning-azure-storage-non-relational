@@ -38,6 +38,8 @@ website:
         - topics/select-an-azure-disk-solution.qmd
         - text: "---"
         - topics/considerations-for-storage-security.qmd
+        - text: "---"
+        - topics/hybrid-file-services.qmd
 
 format:
   html:
