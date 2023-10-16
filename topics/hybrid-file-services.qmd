@@ -1,1 +1,10 @@
+---
+title: "Hybrid file services"
+css: ../styles.css
+---
 
+Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html)
+
+# Hybrid file services
+
+![Hybrid File Services](../images/hybrid-file-services.png)
