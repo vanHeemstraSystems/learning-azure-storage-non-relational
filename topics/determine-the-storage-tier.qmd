@@ -11,7 +11,7 @@ Blob storage is an object store used for storing vast amounts of unstructured da
 |Tier|Storage Costs|Retrieval Costs|Storage Duration|Usage Cases|
 |--|--|--|--|--|
 |Premium|High|Lowest|N/A|- High throughput and large numbers of I/O operations per second.|
-|Hot|Medium|Low|N/A|- Active and frequent use.<br/>-Data staged for processing.|
+|Hot|Medium|Low|N/A|- Active and frequent use.<br/>- Data staged for processing.|
 |Cool|Low|Medium|> 30 days|- Short-term backup.<br/>- Older media infrequently viewed.<br/>- Large data sets.|
 |Archive|Lowest|High|> 180 days|- Long-term backup.<br/>- Original (raw) data.<br/>- Compliance or archival data.|
 
