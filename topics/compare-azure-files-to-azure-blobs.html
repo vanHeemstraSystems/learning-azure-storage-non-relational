@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Azure Storage Non Relational – compare-azure-files-to-azure-blobs</title>
+<title>Learning Azure Storage Non Relational - Compare Azure Files to Azure Blobs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -105,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../topics/compare-azure-files-to-azure-blobs.html">compare-azure-files-to-azure-blobs.html</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../topics/compare-azure-files-to-azure-blobs.html">Compare Azure Files to Azure Blobs</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -163,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../topics/compare-azure-files-to-azure-blobs.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">compare-azure-files-to-azure-blobs.html</span></a>
+ <span class="menu-text">Compare Azure Files to Azure Blobs</span></a>
   </div>
 </li>
     </ul>
@@ -172,15 +172,72 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#compoare-azure-files-to-azure-blobs" id="toc-compoare-azure-files-to-azure-blobs" class="nav-link active" data-scroll-target="#compoare-azure-files-to-azure-blobs">Compoare Azure Files to Azure Blobs</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Compare Azure Files to Azure Blobs</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Source: <a href="https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html">Non-relational Storage</a></p>
+<section id="compoare-azure-files-to-azure-blobs" class="level1">
+<h1>Compoare Azure Files to Azure Blobs</h1>
+<p>The technology you choose depends on the use case, protocol, and performance.</p>
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Azure Files</th>
+<th>Azure Blob Storage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Use Cases</td>
+<td>- Replace or supplement traditional on-premises file servers or NAS devices.<br>- Access files shares from anywhere.<br>- Lift and shift content to cloud.<br>- Replicate and cache with Azure File Sync.<br>- Share stored application settings.</td>
+<td>- Large scale analytical data.<br>- Throughput sensitive high-performance computing.<br>- Backup and archive.<br>- Autonomous driving, media rendering, or genomic sequencing data.</td>
+</tr>
+<tr class="even">
+<td>Available protocols.</td>
+<td>- SMB<br>- NFS 4.1</td>
+<td>- NFS 3.0<br>- REST<br>-Data Lake Storage Gen2.</td>
+</tr>
+<tr class="odd">
+<td>Performance (per volume).</td>
+<td>- Better IOPS.</td>
+<td>- Better Throughput.</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
