@@ -9,3 +9,8 @@ Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-Desi
 The Azure NetApp Files service is enterprise-class, high-performance, metered file storage.
 
 ![Storage Replication Strategy](../images/netapp-files.png)
+
+- Ease of migration.
+- Workload scale.
+- Flexibility.
+- Storage technology.
