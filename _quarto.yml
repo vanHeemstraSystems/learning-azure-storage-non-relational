@@ -30,7 +30,8 @@ website:
         - topics/consider-immutable-storage-policies.qmd
         - text: "---"
         - topics/compare-azure-files-to-azure-blobs.qmd
-        
+        - text: "---"
+        - topics/select-a-file-storage-tier.qmd
 format:
   html:
     theme: cosmo
