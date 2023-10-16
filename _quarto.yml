@@ -28,7 +28,9 @@ website:
         - topics/determine-the-storage-tier.qmd
         - text: "---"
         - topics/consider-immutable-storage-policies.qmd
-
+        - text: "---"
+        - topics/compare-azure-files-to-azure-blobs.qmd
+        
 format:
   html:
     theme: cosmo
