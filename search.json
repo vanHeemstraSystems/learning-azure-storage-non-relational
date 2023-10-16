@@ -60,7 +60,7 @@
     "href": "topics/designing-for-netapp-files.html",
     "title": "Designing for NetApp Files",
     "section": "",
-    "text": "Source: Non-relational Storage\n\nDesigning for NetApp Files\nThe Azure NetApp Files service is enterprise-class, high-performance, metered file storage.\n\n\n\nStorage Replication Strategy"
+    "text": "Source: Non-relational Storage\n\nDesigning for NetApp Files\nThe Azure NetApp Files service is enterprise-class, high-performance, metered file storage.\n\n\n\nStorage Replication Strategy\n\n\n\nEase of migration.\nWorkload scale.\nFlexibility.\nStorage technology."
   },
   {
     "objectID": "SUMMARY.html",
