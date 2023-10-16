@@ -8,4 +8,4 @@ Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-Desi
 # Considerations for storage security
 Use a layered security model to secure and control access.
 
-![Storage Replication Strategy](../images/storage-security.png)
+![Storage Security](../images/storage-security.png)
