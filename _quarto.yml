@@ -32,6 +32,8 @@ website:
         - topics/compare-azure-files-to-azure-blobs.qmd
         - text: "---"
         - topics/select-a-file-storage-tier.qmd
+        - text: "---"
+        - topics/designing-for-netapp-files.qmd
 format:
   html:
     theme: cosmo
