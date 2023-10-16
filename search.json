@@ -49,6 +49,13 @@
     "text": "Source: Non-relational Storage\n\nSelect a storage replication strategy\nWhat level of redundancy do you need?\n\n\n\nStorage Replication Strategy\n\n\n\nA node within a data center becomes unavailable.\nAn entire data center (zonal or non-zonal) becomes available.\nA region-wide outage occurs in the primary region."
   },
   {
+    "objectID": "topics/select-an-azure-disk-solution.html",
+    "href": "topics/select-an-azure-disk-solution.html",
+    "title": "Select an Azure disk solution",
+    "section": "",
+    "text": "Source: Non-relational Storage\n\nSelect an Azure disk solution\nAzure disks are block-level storage volumes used with Azure virtual machines.\n\n\n\nStorage Replication Strategy\n\n\n\nConsider disk type, scenario, throughput, and IOPS.\nAlways use managed disks.\nOptimize read and write access with disk caching.\nUse Azure Disk Encryption.\nEnhance performance with multiple disks.\nNetwork acceleration feature.\nShare disks across multiple VMs."
+  },
+  {
     "objectID": "topics/select-a-file-storage-tier.html",
     "href": "topics/select-a-file-storage-tier.html",
     "title": "Select a file storage tier",
