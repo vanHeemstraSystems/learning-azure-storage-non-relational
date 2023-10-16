@@ -42,6 +42,13 @@
     "text": "Source: Non-relational Storage\n\nClarify your data storage\n\n\n\nData Storage\n\n\nTo design Azure storage, you first must determine what type of data you have:\n\nStructured data includes relational data and has a shared schema.\nSemi-structured is less organized than structured data and isn’t stored in a relational format.\nUnstructured data is the least organized type of data."
   },
   {
+    "objectID": "topics/designing-a-storage-solution-for-tailwind-traders.html",
+    "href": "topics/designing-a-storage-solution-for-tailwind-traders.html",
+    "title": "Design a storage solution for Tailwind Traders",
+    "section": "",
+    "text": "Source: Non-relational Storage\n\nDesign a storage solution for Tailwind Traders\nDetermine regulatory compliance, secure document retention, and legal hold policies.\n\n\n\nImmutable Storage Policies\n\n\n\nWhat type of data is represented?\nWhat factors will you consider in your design?\nWhat type of storage accounts are needed?\nWill you use blob access tiers?\nWill you use immutable storage?\nHow will the content be securiy accessed?\n\nYour solution should consider the media, marketing literature, and corporate documents."
+  },
+  {
     "objectID": "topics/compare-azure-files-to-azure-blobs.html",
     "href": "topics/compare-azure-files-to-azure-blobs.html",
     "title": "Compare Azure Files to Azure Blobs",
