@@ -1,1 +1,20 @@
+---
+title: "Design a storage solution for Tailwind Traders"
+css: ../styles.css
+---
 
+Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html)
+
+# Design a storage solution for Tailwind Traders
+Determine regulatory compliance, secure document retention, and legal hold policies.
+
+![Immutable Storage Policies](../images/storage-solution-for-tailwind-traders.png)
+
+- What type of data is represented?
+- What factors will you consider in your design?
+- What type of storage accounts are needed?
+- Will you use blob access tiers?
+- Will you use immutable storage?
+- How will the content be securiy accessed?
+
+Your solution should consider the media, marketing literature, and corporate documents.
