@@ -1,0 +1,17 @@
+---
+title: "Consider immutable storage policies"
+css: ../styles.css
+---
+
+Source: [Non-relational Storage](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html)
+
+# Consider immutable storage policies
+Determine regulatory compliance, secure document retention, and legal hold policies.
+
+![Immutable Storage Policies](../images/immutable-storage-policies.png)
+
+- Apply immutable storage policies at the container level.
+- Use **time-based retention policies** for business-critical data.
+- Use **legal-hold policies** for sensitive information to ensure a tamper proof state.
+- Policies apply only to new content.
+- Audit logs are available.
