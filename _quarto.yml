@@ -40,6 +40,8 @@ website:
         - topics/considerations-for-storage-security.qmd
         - text: "---"
         - topics/hybrid-file-services.qmd
+        - text: "---"
+        - topics/designing-a-storage-solution-for-tailwind-traders.qmd
 
 format:
   html:
