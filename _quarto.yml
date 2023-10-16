@@ -26,6 +26,9 @@ website:
         - topics/select-a-storage-replication-strategy.qmd
         - text: "---"
         - topics/determine-the-storage-tier.qmd
+        - text: "---"
+        - topics/consider-immutable-storage-policies.qmd
+
 format:
   html:
     theme: cosmo
