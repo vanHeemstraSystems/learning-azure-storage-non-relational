@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Azure Storage Non Relational – determine-the-storage-tier</title>
+<title>Learning Azure Storage Non Relational - Determine the storage tier</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Determine the storage tier</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -150,15 +150,93 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#determine-the-storage-tier" id="toc-determine-the-storage-tier" class="nav-link active" data-scroll-target="#determine-the-storage-tier">Determine the storage tier</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Determine the storage tier</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Source: <a href="https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html">Non-relational Storage</a></p>
+<section id="determine-the-storage-tier" class="level1">
+<h1>Determine the storage tier</h1>
+<p>Blob storage is an object store used for storing vast amounts of unstructured data.</p>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tier</th>
+<th>Storage Costs</th>
+<th>Retrieval Costs</th>
+<th>Storage Duration</th>
+<th>Usage Cases</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Premium</td>
+<td>High</td>
+<td>Lowest</td>
+<td>N/A</td>
+<td>- High throughput and large numbers of I/O operations per second.</td>
+</tr>
+<tr class="even">
+<td>Hot</td>
+<td>Medium</td>
+<td>Low</td>
+<td>N/A</td>
+<td>- Active and frequent use.<br>-Data staged for processing.</td>
+</tr>
+<tr class="odd">
+<td>Cool</td>
+<td>Low</td>
+<td>Medium</td>
+<td>&gt; 30 days</td>
+<td>- Short-term backup.<br>- Older media infrequently viewed.<br>- Large data sets.</td>
+</tr>
+<tr class="even">
+<td>Archive</td>
+<td>Lowest</td>
+<td>High</td>
+<td>&gt; 180 days</td>
+<td>- Long-term backup.<br>- Original (raw) data.<br>- Compliance or archival data.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Use lifecycle rules to transition blob data to the appropriate access tiers.</li>
+<li>Consider a data lifecycle rule to expire or delete data.</li>
+</ul>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
