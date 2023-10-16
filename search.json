@@ -14,6 +14,13 @@
     "text": "Source: Non-relational Storage\n\nDetermine the best storage account type\nSelect an account type based on supported services, usage cases, and SLA.\n\n\n\n\n\n\n\n\nAccount Type\nSupported Services\nUsage\n\n\n\n\nStandard general-purpose v2 (default)\nBlobs / Data Lake, Queues, Tables, Azure Files\nRecommended for most scenarios.\n\n\nPremium block blobs\nBlob storage, Data Lake\nHigh transactions rates, single digit storage latency, or large numbers of small transactions\n\n\nPremium file shares\nAzure Files\nEnterprise or high-performance scale applications - supports both SMBand NFS file shares\n\n\nPremium page blobs\nPage blobs only\nHigh performance and low latency storage scenarios\n\n\n\n\n\nConsiderations for storage accounts\nIt is important to plan your storage accounts.\n\nLocation: For performance reasons locate the data close to users. One storage account for each location.\nCompliance: Regulatory guidelines for keeping data in a specific location. / Internal requirements for auditing or storing data.\nCost: The settings for the account do influence the cost of services in the account.\nReplication: Data storage could have different replication strategies.\nAdministrative overhead: Each storage account requires some time and attention from an administrator to create and maintain.\nSecurity - Data sensitivity: Data plane security and data storage security."
   },
   {
+    "objectID": "topics/select-a-file-storage-tier.html",
+    "href": "topics/select-a-file-storage-tier.html",
+    "title": "Select a storage replication strategy",
+    "section": "",
+    "text": "Source: Non-relational Storage\n\nSelect a file storage tier (matching)\nTailor your file tiers to the performance and price you need.\n\n\n\nStorage Replication Strategy"
+  },
+  {
     "objectID": "topics/designing-for-data-storage-solution.html",
     "href": "topics/designing-for-data-storage-solution.html",
     "title": "Designing for Data Storage Solution",
